@@ -9,6 +9,8 @@ jupyter = "*"
 sphinx = "*"
 nbsphinx = "*"
 pydata-sphinx-theme = "*"
+seaborn = "*"
+invoke = "*"
 
 [dev-packages]
 
