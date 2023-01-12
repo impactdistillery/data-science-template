@@ -35,3 +35,5 @@ html_theme_options = {
       "image_dark": "logo.png",
    }
 }
+
+data_url = "https://raw.githubusercontent.com/mwaskom/seaborn-data/master/titanic.csv"

@@ -1,14 +1,21 @@
 from invoke import task
+import conf
 
 @task
 def hi(c):
-    print("Hi")
+    print("Welcome to the ADS demo project.")
+
+@task
+def download_data(c):
+    print("[INFO] Download data")
+    c.run(f"cd input && wget {conf.data_url}")
 
 @task
 def setup(c):
     print("[INFO] Setup")
     c.run("mkdir input")
     c.run("mkdir output")
+    download_data(c)
 
 @task
 def clear(c):
