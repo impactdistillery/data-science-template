@@ -10,9 +10,9 @@ sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Data Science Template'
-copyright = '2023, Data Science Team'
-author = 'Data Science Team'
+project = '{{cookiecutter.project_name}}'
+copyright = '{{cookiecutter.year}}, {{cookiecutter.author_name}}'
+author = '{{cookiecutter.author_name}}'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
