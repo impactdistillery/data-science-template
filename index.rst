@@ -12,7 +12,7 @@ Welcome to Data Science Template's documentation!
    :glob:
 
    notebooks/index
-   *
+   temp/apidoc/modules
 
 
 

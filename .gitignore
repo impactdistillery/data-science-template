@@ -1,6 +1,10 @@
 input
 output
+local
+temp
 _build
+
+.vscode
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
