@@ -11,6 +11,7 @@ Welcome to Data Science Template's documentation!
    :caption: Contents:
    :glob:
 
+   docs/index
    notebooks/index
    temp/apidoc/modules
 
