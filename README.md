@@ -1,1 +1,1 @@
-# ds-template
+# {{cookiecutter.project_name}}
