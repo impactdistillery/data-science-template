@@ -1,5 +1,6 @@
 pandas
 jupyter
+jupyterlab
 sphinx
 nbsphinx
 pydata-sphinx-theme
